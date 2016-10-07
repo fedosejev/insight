@@ -1,3 +1,3 @@
 #!/bin/bash
 
-node add-new.js
+node create-new.js

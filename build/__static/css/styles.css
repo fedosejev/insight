@@ -16,7 +16,7 @@ a:hover, a:active, a:focus {
 
 .footer {
   padding: 0 0 40px 0;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 300; }
 
 .page-home .year {
@@ -24,37 +24,43 @@ a:hover, a:active, a:focus {
   font-size: 24px; }
 
 .page-home .month {
-  margin: 40px 0 10px 0;
-  font-size: 18px; }
+  margin: 10px 0;
+  font-size: 24px; }
 
 .page-home .day {
   display: inline-block;
   margin: 0 10px 0 0px;
-  font-size: 18px; }
+  font-size: 24px; }
 
 .page-year .year {
   margin: 0 0 10px 0;
   font-size: 24px; }
 
 .page-year .month {
-  margin: 40px 0 10px 0;
-  font-size: 18px; }
+  margin: 10px 0;
+  font-size: 24px; }
 
 .page-year .day {
   display: inline-block;
   margin: 0 10px 0 0px;
-  font-size: 18px; }
+  font-size: 24px; }
 
 .page-month .month {
   margin: 0 0 10px 0;
-  font-size: 18px; }
+  font-size: 24px; }
 
 .page-month .day {
   display: inline-block;
   margin: 0 10px 0 0px;
-  font-size: 18px; }
+  font-size: 24px; }
 
 .page-day .day {
   display: inline-block;
   margin: 0 10px 0 0px;
   font-size: 18px; }
+
+.page-day .content h1 {
+  margin: 40px 0 20px 0; }
+
+.page-day .content p {
+  font-size: 20px; }

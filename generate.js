@@ -95,6 +95,8 @@ function createHomePage() {
     websiteName: websiteConfig.name,
     websiteUrl: websiteConfig.url,
     websiteTagline: websiteConfig.tagline,
+    websiteAuthorName: websiteConfig.author.name,
+    websiteAuthorUrl: websiteConfig.author.url,
 
     yearsMonthsDays: yearsMonthsDays,
     years: years,
@@ -185,6 +187,8 @@ const createDayIndexFile = (dayHtmlContent, dayConfig) => {
     websiteName: websiteConfig.name,
     websiteUrl: websiteConfig.url,
     websiteTagline: websiteConfig.tagline,
+    websiteAuthorName: websiteConfig.author.name,
+    websiteAuthorUrl: websiteConfig.author.url,
 
     html: dayHtmlContent,
     title: dayConfig.title,
@@ -230,6 +234,8 @@ const createMonthIndexFile = (year, month) => {
     websiteName: websiteConfig.name,
     websiteUrl: websiteConfig.url,
     websiteTagline: websiteConfig.tagline,
+    websiteAuthorName: websiteConfig.author.name,
+    websiteAuthorUrl: websiteConfig.author.url,
 
     year,
     month: {
@@ -271,7 +277,9 @@ const createYearIndexFile = year => {
     websiteName: websiteConfig.name,
     websiteUrl: websiteConfig.url,
     websiteTagline: websiteConfig.tagline,
-
+    websiteAuthorName: websiteConfig.author.name,
+    websiteAuthorUrl: websiteConfig.author.url,
+    
     year,
     yearsMonthsDays,
     

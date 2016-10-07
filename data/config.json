@@ -4,5 +4,9 @@
   "googleAnalyticsTrackingId": "",
   "addThisPubId": "",
   "url": "https://github.com/fedosejev/insight",
+  "author": {
+    "name": "Artemij Fedosejev",
+    "url": "http://artemij.com"
+  },
   "tagline": "When observation is priceless."
 }
