@@ -1,8 +1,8 @@
 {
-  "name": "More Ideas Than Time",
-  "description": "Ideas of Artemij Fedosejev.",
+  "name": "Insight",
+  "description": "Easily collect and publish your daily observations.",
   "googleAnalyticsTrackingId": "",
   "addThisPubId": "",
-  "url": "http://moreideasthantime.com",
-  "tagline": "When experimentation and improvisation is your oxygen."
+  "url": "https://github.com/fedosejev/insight",
+  "tagline": "When observation is priceless."
 }
