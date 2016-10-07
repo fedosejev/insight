@@ -11,6 +11,10 @@ Easily collect and publish your daily observations.
 1. `./serve.sh`
 2. Open `http://localhost:8080` in a web browser.
 
+## Setup
+
+Edit `./data/config.json` file.
+
 ## Create new observation
 
 1. `./add-new.sh`.
