@@ -1,0 +1,29 @@
+@import 'variables';
+
+* {
+  font-weight: 300;
+  color: $black;
+}
+
+a {
+  &:hover,
+  &:active,
+  &:focus {
+    color: $black;
+    text-decoration: none;
+  }
+}
+
+.page {
+  .content {
+    padding: 40px 0;    
+  }
+}
+
+@import 'header';
+@import 'footer';
+
+@import 'page-home';
+@import 'page-year';
+@import 'page-month';
+@import 'page-day';

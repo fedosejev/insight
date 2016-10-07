@@ -1,0 +1,38 @@
+{
+  "name": "insight",
+  "version": "1.0.0",
+  "description": "Easily collect and publish your daily observations.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fedosejev/insight.git"
+  },
+  "keywords": [],
+  "author": "Artemij Fedosejev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fedosejev/insight/issues"
+  },
+  "homepage": "https://github.com/fedosejev/insight#readme",
+  "dependencies": {
+    "ejs": "^2.5.2",
+    "fs-extra": "^0.30.0",
+    "glob": "^7.0.6",
+    "html-minifier": "^3.0.2",
+    "is-there": "^4.3.3",
+    "lodash": "^4.16.1",
+    "mkdirp": "^0.5.1",
+    "moment": "^2.14.1",
+    "showdown": "^1.4.3"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-html-minifier": "^0.1.8",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglify": "^2.0.0"
+  }
+}

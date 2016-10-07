@@ -1,0 +1,28 @@
+.navigation {
+  text-align: left;
+  margin: 40px 0;
+  font-family: 'Raleway', sans-serif;
+
+  li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0;
+    letter-spacing: 0px;
+    font-size: 20px;
+
+    a {
+      color: #888;
+
+      &:hover {
+        text-decoration: none;
+        color: #000;
+      }
+    }
+
+    small {
+      display: block;
+      margin-top: 10px;
+      color: #999;
+    }
+  }
+}

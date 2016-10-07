@@ -1,0 +1,75 @@
+<body class="page page-home">
+  <div class="container">
+
+    <%- include('../../__partials/header') %>
+
+    <div class="row">
+      <div class="col-sm-10 col-sm-offset-1">
+        <div class="content">
+
+          <%
+
+          for (let iterator = 0; iterator < years.length; iterator++) {
+
+            let year = years[iterator];
+            let yearData = yearsMonthsDays[year];
+
+            %>
+
+            <h3 class="year">
+              <a href="/<%= year %>/">
+                <%= year %>
+              </a>
+            </h3>
+
+            <%
+
+            for (let iterator2 = 0; iterator2 < yearData.length; iterator2++) {
+
+              if (yearData[iterator2].length > 0) {
+
+                let month = iterator2;
+
+                %>
+
+                <h4 class="month">
+                  <a href="/<%= year %>/<%= month %>/">
+                    <%= yearData[iterator2][0].monthName %>
+                  </a>
+                </h4>
+
+                <%
+
+                let monthData = yearData[iterator2];
+
+                for (let iterator3 = 0; iterator3 < monthData.length; iterator3++) {
+
+                  let day = monthData[iterator3];
+
+                %>
+                  <h5 class="day">
+                    <a href="/<%= year %>/<%= month %>/<%= day.day %>">
+                      <%= day.dayName %>
+                    </a>
+                  </h5>
+                <%
+                }
+              }
+            }
+          }
+
+          %>
+
+        </div>
+      </div>
+    </div>    
+
+    <%- include('../../__partials/footer') %>
+
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="/__static/js/app.js"></script>
+
+  <%- include('../../__partials/google-analytics') %>
+</body>

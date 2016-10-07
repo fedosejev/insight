@@ -1,0 +1,31 @@
+<body class="page page-day">
+  <div class="container">
+
+    <%- include('../../__partials/header') %>
+
+    <div class="row">
+      <div class="col-sm-10 col-sm-offset-1">
+        <div class="content">
+        
+          <h3 class="day">
+            <a href="/<%= year %>"><%= year %></a> 
+            <a href="/<%= year %>/<%= monthNumber %>"><%= monthName %></a> 
+            <%= day %>
+          </h3>
+
+          <%- html %>
+
+        </div>
+      </div>
+    </div>
+
+    <%- include('../../__partials/footer') %>
+
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="/__static/js/app.js"></script>
+
+  <%- include('../../__partials/google-analytics') %>
+  <%- include('../../__partials/add-this') %>
+</body>

@@ -1,0 +1,60 @@
+* {
+  font-weight: 300;
+  color: #222; }
+
+a:hover, a:active, a:focus {
+  color: #222;
+  text-decoration: none; }
+
+.page .content {
+  padding: 40px 0; }
+
+.header {
+  padding: 40px 0 0 0; }
+  .header .website-name {
+    font-size: 16px; }
+
+.footer {
+  padding: 0 0 40px 0;
+  font-size: 16px;
+  font-weight: 300; }
+
+.page-home .year {
+  margin: 0;
+  font-size: 24px; }
+
+.page-home .month {
+  margin: 40px 0 10px 0;
+  font-size: 18px; }
+
+.page-home .day {
+  display: inline-block;
+  margin: 0 10px 0 0px;
+  font-size: 18px; }
+
+.page-year .year {
+  margin: 0 0 10px 0;
+  font-size: 24px; }
+
+.page-year .month {
+  margin: 40px 0 10px 0;
+  font-size: 18px; }
+
+.page-year .day {
+  display: inline-block;
+  margin: 0 10px 0 0px;
+  font-size: 18px; }
+
+.page-month .month {
+  margin: 0 0 10px 0;
+  font-size: 18px; }
+
+.page-month .day {
+  display: inline-block;
+  margin: 0 10px 0 0px;
+  font-size: 18px; }
+
+.page-day .day {
+  display: inline-block;
+  margin: 0 10px 0 0px;
+  font-size: 18px; }
