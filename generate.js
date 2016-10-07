@@ -51,14 +51,21 @@ const groupYearsMonthsDays = data => {
   const results = {};
 
   data.map(date => {
-    if (typeof results[date.year] === 'undefined') {
-      results[date.year] = months;
+    const {
+      year,
+      month,
+      day,
+      dayName
+    } = date;
+
+    if (typeof results[year] === 'undefined') {
+      results[year] = months;
     }
 
-    results[date.year][date.month].push({
+    results[year][month].push({
       monthName: moment(date).subtract(1, 'months').format('MMMM'),
-      day: date.day,
-      dayName: date.dayName
+      day: day,
+      dayName: dayName
     });
   });
 
