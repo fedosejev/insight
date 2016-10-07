@@ -1,9 +1,9 @@
 {
   "name": "Insight",
   "description": "Easily collect and publish your daily observations.",
+  "url": "https://fedosejev.github.io/insight/",
   "googleAnalyticsTrackingId": "",
   "addThisPubId": "",
-  "url": "https://github.com/fedosejev/insight",
   "author": {
     "name": "Artemij Fedosejev",
     "url": "http://artemij.com"
