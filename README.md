@@ -17,7 +17,7 @@ Edit `./data/config.json` file.
 
 ## Create new observation
 
-1. `./add-new.sh`.
+1. `./create-new.sh`.
 2. Open and edit `content.md` file in `./data/<today's year>/<today's month>/<today's date>` directory.
 3. Generate static web pages: `./generate.sh`.
 
