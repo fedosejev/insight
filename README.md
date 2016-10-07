@@ -14,8 +14,8 @@ Easily collect and publish your daily observations.
 ## Create new observation
 
 1. `./add-new.sh`.
-2. Open and edit `content.md` file in `./data/<today's year>/<today's month>/<today's date>`.
-3. Once finished editing: `./generate.sh`.
+2. Open and edit `content.md` file in `./data/<today's year>/<today's month>/<today's date>` directory.
+3. Generate static web pages: `./generate.sh`.
 
 ## Publish on GitHub Pages
 
