@@ -19,7 +19,7 @@ Easily collect and publish your daily observations.
 
 ## Publish on GitHub Pages
 
-./publish.sh`
+`./publish.sh`
 
 ## Author
 
