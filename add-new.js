@@ -4,7 +4,7 @@ const fsExtra = require('fs-extra');
 
 const DATA_DIRECTORY = 'data';
 
-const createDateDirectory = (now) => {
+const createDateDirectory = now => {
   const year = now.year();
   const month = now.month() + 1;
   const date = now.date();
@@ -13,7 +13,7 @@ const createDateDirectory = (now) => {
   fsExtra.emptyDirSync(directory);
 };
 
-const createImagesDirectory = (now) => {
+const createImagesDirectory = now => {
   const year = now.year();
   const month = now.month() + 1;
   const date = now.date();
@@ -22,7 +22,7 @@ const createImagesDirectory = (now) => {
   fsExtra.emptyDirSync(directory);
 };
 
-const createConfigFile = (now) => {
+const createConfigFile = now => {
   const year = now.year();
   const month = now.month() + 1;
   const date = now.date();
