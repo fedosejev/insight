@@ -15,6 +15,10 @@
     p {
       font-size: 26px;
 
+      &:last-of-type {
+        margin-bottom: 0;
+      }
+
       strong {
         font-weight: 500;
       }
