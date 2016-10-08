@@ -10,14 +10,14 @@ a {
     color: #222;
     text-decoration: none; }
 
-.page .content {
+.page .content-container {
   font-family: 'Karma', serif;
   padding: 40px 0; }
-  .page .content h3,
-  .page .content h4,
-  .page .content h5 {
+  .page .content-container h3,
+  .page .content-container h4,
+  .page .content-container h5 {
     font-weight: 300; }
-  .page .content .fa {
+  .page .content-container .fa {
     color: #888; }
 
 .header {
