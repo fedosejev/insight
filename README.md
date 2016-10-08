@@ -6,7 +6,7 @@ __Insight__ is a static website generator that is tailored for publishing your d
 
 ## Install
 
-`npm install`
+`./install.sh`
 
 ## Run
 
