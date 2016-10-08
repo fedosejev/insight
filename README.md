@@ -29,7 +29,8 @@ Edit `./data/config.json` file.
 
 ## Future
 
-- [ ] Add Disqus
+- [ ] Add Disqus.
+- [ ] Add social buttons.
 
 ## Author
 
