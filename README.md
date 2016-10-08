@@ -27,6 +27,10 @@ Edit `./data/config.json` file.
 
 `./publish.sh`
 
+## Future
+
+- [ ] Add Disqus
+
 ## Author
 
 [Artemij Fedosejev](http://artemij.com)
