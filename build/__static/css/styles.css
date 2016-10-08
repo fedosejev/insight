@@ -25,7 +25,8 @@ a {
 .footer {
   padding: 0 0 40px 0;
   font-size: 14px;
-  font-weight: 300; }
+  font-weight: 300;
+  color: #888; }
 
 .page-home .year {
   margin: 0;
