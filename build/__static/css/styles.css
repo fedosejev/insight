@@ -8,8 +8,7 @@ a:hover, a:active, a:focus {
 
 .page .content {
   padding: 40px 0; }
-  .page .content .hint {
-    font-weight: 300;
+  .page .content .fa {
     color: #888; }
 
 .header {
