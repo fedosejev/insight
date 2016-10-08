@@ -2,9 +2,11 @@
   font-weight: 300;
   color: #222; }
 
-a:hover, a:active, a:focus {
-  color: #222;
-  text-decoration: none; }
+a {
+  color: #0080ff; }
+  a:hover, a:active, a:focus {
+    color: #222;
+    text-decoration: none; }
 
 .page .content {
   padding: 40px 0; }
