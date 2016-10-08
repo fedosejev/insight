@@ -1,5 +1,7 @@
 @import 'https://fonts.googleapis.com/css?family=Great+Vibes';
+@import 'https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz';
 * {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
   font-weight: 300;
   color: #222; }
 
