@@ -18,7 +18,6 @@ a {
 
 .page {
   .content-container {
-    font-family: 'Karma', serif;
     padding: 40px 0;
 
     h3,
@@ -31,7 +30,9 @@ a {
       color: $grey;
     }
 
-    .content {}
+    .content {
+      font-family: 'Karma', serif;
+    }
   }
 }
 

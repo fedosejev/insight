@@ -11,7 +11,6 @@ a {
     text-decoration: none; }
 
 .page .content-container {
-  font-family: 'Karma', serif;
   padding: 40px 0; }
   .page .content-container h3,
   .page .content-container h4,
@@ -19,6 +18,8 @@ a {
     font-weight: 300; }
   .page .content-container .fa {
     color: #888; }
+  .page .content-container .content {
+    font-family: 'Karma', serif; }
 
 .header {
   padding: 40px 0 0 0; }
