@@ -2,6 +2,8 @@
 
 Easily collect and publish your daily observations.
 
+__Insight__ is a static website generator that is tailored for creating a diary with daily observations.
+
 ## Install
 
 `npm install`
