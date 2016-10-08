@@ -21,43 +21,43 @@ a:hover, a:active, a:focus {
 
 .page-home .year {
   margin: 0;
-  font-size: 24px; }
+  font-size: 20px; }
 
 .page-home .month {
   margin: 10px 0;
-  font-size: 24px; }
+  font-size: 20px; }
 
 .page-home .day {
   display: inline-block;
   margin: 0 10px 0 0px;
-  font-size: 24px; }
+  font-size: 20px; }
 
 .page-year .year {
   margin: 0 0 10px 0;
-  font-size: 24px; }
+  font-size: 20px; }
 
 .page-year .month {
   margin: 10px 0;
-  font-size: 24px; }
+  font-size: 20px; }
 
 .page-year .day {
   display: inline-block;
   margin: 0 10px 0 0px;
-  font-size: 24px; }
+  font-size: 20px; }
 
 .page-month .month {
   margin: 0 0 10px 0;
-  font-size: 24px; }
+  font-size: 20px; }
 
 .page-month .day {
   display: inline-block;
   margin: 0 10px 0 0px;
-  font-size: 24px; }
+  font-size: 20px; }
 
 .page-day .day {
   display: inline-block;
   margin: 0 10px 0 0px;
-  font-size: 24px; }
+  font-size: 20px; }
 
 .page-day .content h1 {
   margin: 40px 0 20px 0; }
