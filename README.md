@@ -27,11 +27,6 @@ Edit `./data/config.json` file.
 
 `./publish.sh`
 
-## Future
-
-- [ ] Add Disqus.
-- [ ] Add social buttons.
-
 ## Author
 
 [Artemij Fedosejev](http://artemij.com)
