@@ -11,6 +11,8 @@ a {
 
 .page .content {
   padding: 40px 0; }
+  .page .content h3 {
+    font-weight: 300; }
   .page .content .fa {
     color: #888; }
 
