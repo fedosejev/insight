@@ -2,7 +2,7 @@
 
 Easily collect and publish your daily observations.
 
-__Insight__ is a static website generator that is tailored for publishing your daily observations.
+__Insight__ is a static website generator that is tailored for publishing your daily observations. [See Insight in action](https://fedosejev.github.io/insight/).
 
 ## Install
 
