@@ -16,7 +16,12 @@ a {
 
 .page {
   .content {
-    padding: 40px 0;    
+    padding: 40px 0;
+
+    .hint {
+      font-weight: 300;
+      color: $grey;
+    }    
   }
 }
 
