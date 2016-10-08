@@ -73,8 +73,9 @@ a {
   margin: 0 10px 0 0px;
   font-size: 20px; }
 
-.page-day .content h1 {
-  margin: 40px 0 20px 0; }
-
-.page-day .content p {
-  font-size: 26px; }
+.page-day .content {
+  margin: 40px 0; }
+  .page-day .content h1 {
+    margin: 40px 0 20px 0; }
+  .page-day .content p {
+    font-size: 26px; }
