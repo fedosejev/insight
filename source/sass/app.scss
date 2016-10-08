@@ -17,7 +17,7 @@ a {
 }
 
 .page {
-  .content {
+  .content-container {
     font-family: 'Karma', serif;
     padding: 40px 0;
 
@@ -29,7 +29,9 @@ a {
 
     .fa {
       color: $grey;
-    }    
+    }
+
+    .content {}
   }
 }
 
