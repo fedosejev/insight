@@ -1,5 +1,3 @@
-# Insight
-
 ![Insight Logo](insight-logo.png)
 
 Easily collect and publish your daily observations.
