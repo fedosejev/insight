@@ -1,4 +1,4 @@
-![Insight Logo](insight-logo.png)
+<img src="./insight-logo.png" alt="Insight Logo" width="150" />
 
 Easily collect and publish your daily observations.
 
