@@ -1,5 +1,7 @@
 # Insight
 
+![Insight Logo](insight-logo.png)
+
 Easily collect and publish your daily observations.
 
 __Insight__ is a static microblog generator that is tailored for publishing your daily observations. [See Insight in action](https://fedosejev.github.io/insight/).
