@@ -18,8 +18,6 @@ a {
     font-weight: 300; }
   .page .content-container .fa {
     color: #888; }
-  .page .content-container .content {
-    font-family: 'Karma', serif; }
 
 .header {
   padding: 40px 0 0 0; }
@@ -74,12 +72,20 @@ a {
   font-size: 20px; }
 
 .page-day .content {
-  margin: 80px 0 40px 0; }
+  margin: 40px 0 0 0; }
   .page-day .content h1 {
     margin: 40px 0 20px 0; }
   .page-day .content p {
-    font-size: 26px; }
+    font-size: 20px; }
     .page-day .content p:last-of-type {
       margin-bottom: 0; }
     .page-day .content p strong {
       font-weight: 500; }
+  .page-day .content img {
+    width: 100%; }
+  .page-day .content .stock {
+    font-weight: 500; }
+  .page-day .content blockquote {
+    margin: 10px 0; }
+    .page-day .content blockquote:first-of-type {
+      margin-top: 20px; }

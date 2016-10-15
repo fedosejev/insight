@@ -1,12 +1,12 @@
 {
-  "name": "Insight",
-  "description": "Easily collect and publish your daily observations.",
-  "url": "https://fedosejev.github.io/insight",
-  "googleAnalyticsTrackingId": "",
-  "addThisPubId": "",
-  "author": {
-    "name": "Artemij Fedosejev",
-    "url": "http://artemij.com"
-  },
-  "tagline": "When observation is priceless."
+    "name": "Insight",
+    "description": "Easily collect and publish your daily observations.",
+    "url": "http://artemij.com/insights",
+    "googleAnalyticsTrackingId": "",
+    "addThisPubId": "",
+    "author": {
+        "name": "Artemij Fedosejev",
+        "url": "http://artemij.com"
+    },
+    "tagline": "When observation is priceless."
 }

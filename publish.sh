@@ -1,5 +1,7 @@
 #!/bin/bash
 
+./set-config-to-production.sh
+
 # Build content and static files
 ./generate-for-production.sh
 

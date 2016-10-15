@@ -72,7 +72,36 @@ const groupYearsMonthsDays = data => {
   return results;
 };
 
-function createHomePage() {
+const sortDays = days => (
+  days.sort((a, b) => {
+    if (a.day > b.day) {
+      return -1;
+    }
+
+    if (a.day < b.day) {
+      return 1;
+    }
+
+    return 0;
+  })
+);
+
+const sortYearsMonthsDays = yearsMonthsDays => {
+  let sortedYearsMonthsDays = {};
+
+  Object.keys(yearsMonthsDays).map(year => {
+    const months = yearsMonthsDays[year];
+    const sortedMonths = months.map(days => {
+      return sortDays(days);
+    });
+
+    sortedYearsMonthsDays[year] = sortedMonths;
+  });
+
+  return sortedYearsMonthsDays;
+};
+
+const createHomePage = () => {
   const htmlFilePath = __dirname + '/build/index.html';
 
   // https://github.com/mde/ejs/issues/124
@@ -83,10 +112,12 @@ function createHomePage() {
   });
 
   const days = getListOfYearsMonthsDays();
-  const yearsMonthsDays = groupYearsMonthsDays(days);
+  let yearsMonthsDays = groupYearsMonthsDays(days);
   const years = getYears(days);
 
   const websiteConfig = readWebsiteConfigFromFile();
+
+  yearsMonthsDays = sortYearsMonthsDays(yearsMonthsDays);
 
   let htmlContent = compiled({
     pageTitle: websiteConfig.name,
@@ -109,7 +140,7 @@ function createHomePage() {
   });
 
   fs.writeFileSync(htmlFilePath, htmlContent);
-}
+};
 
 const getCanonicalDayUrl = (websiteConfig, dayConfig) => {
   const dayDate = moment(dayConfig.date);
@@ -200,6 +231,7 @@ const createDayIndexFile = (dayHtmlContent, dayConfig) => {
     monthNumber: getMonthNumber(date),
     monthName: getMonthName(date),
     day: date.format('Do'),
+    weekday: date.format('dddd'),
 
     googleAnalyticsTrackingId: websiteConfig.googleAnalyticsTrackingId,
     addThisPubId: websiteConfig.addThisPubId,
@@ -225,7 +257,9 @@ const createMonthIndexFile = (year, month) => {
   const htmlFilePath = getMonthIndexFilePath(year, month);
 
   const days = getListOfYearsMonthsDays();
-  const yearsMonthsDays = groupYearsMonthsDays(days);
+  let yearsMonthsDays = groupYearsMonthsDays(days);
+
+  yearsMonthsDays = sortYearsMonthsDays(yearsMonthsDays);
 
   let htmlContent = compiled({
     pageTitle: websiteConfig.name,
@@ -268,7 +302,9 @@ const createYearIndexFile = year => {
   const htmlFilePath = getYearIndexFilePath(year);
 
   const days = getListOfYearsMonthsDays();
-  const yearsMonthsDays = groupYearsMonthsDays(days);
+  let yearsMonthsDays = groupYearsMonthsDays(days);
+
+  yearsMonthsDays = sortYearsMonthsDays(yearsMonthsDays);
 
   let htmlContent = compiled({
     pageTitle: websiteConfig.name,
@@ -336,7 +372,7 @@ const getCleanMonth = date => (
 );
 
 const createDay = dayDirectoryName => {
-  console.log('💡  Creating day: ' + dayDirectoryName);
+  console.log('💡 Creating day: ' + dayDirectoryName);
 
   const dayConfig = readDayConfigFromFile(dayDirectoryName);
   const dayMarkdown = readMarkdownFromFile(dayDirectoryName);
@@ -347,7 +383,7 @@ const createDay = dayDirectoryName => {
 };
 
 const createMonth = monthDirectoryName => {
-  console.log('💡  Creating month: ' + monthDirectoryName);
+  console.log('💡 Creating month: ' + monthDirectoryName);
 
   const yearDirectoryName = getCleanYear(monthDirectoryName);
   monthDirectoryName = getCleanMonth(monthDirectoryName);
@@ -356,7 +392,7 @@ const createMonth = monthDirectoryName => {
 };
 
 const createYear = yearDirectoryName => {
-  console.log('💡  Creating year: ' + yearDirectoryName);
+  console.log('💡 Creating year: ' + yearDirectoryName);
 
   yearDirectoryName = yearDirectoryName.replace(/\//g, '');
 
