@@ -1,6 +1,6 @@
 const fs = require('fs');
 const CONFIG_FILE_PATH = __dirname + '/data/config.json';
-const PRODUCTION_URL = 'http://artemij.com/insights';
+const PRODUCTION_URL = 'https://fedosejev.github.io/insight';
 
 const readWebsiteConfigFromFile = () => (
   JSON.parse(fs.readFileSync(CONFIG_FILE_PATH, 'utf8'))
