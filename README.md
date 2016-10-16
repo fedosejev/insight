@@ -1,8 +1,8 @@
 <img src="./insight-logo.png" alt="Insight Logo" width="150" />
 
-Easily collect and publish your daily observations.
+Easily collect and publish your daily insights.
 
-__Insight__ is a static microblog generator that is tailored for publishing your daily observations. [See Insight in action](https://fedosejev.github.io/insight/).
+__Insight__ is a static microblog generator that is tailored for publishing your daily insights. [See Insight in action](https://fedosejev.github.io/insight/).
 
 ## Install
 
@@ -17,7 +17,7 @@ __Insight__ is a static microblog generator that is tailored for publishing your
 
 Edit `./data/config.json` file.
 
-## Create new observation
+## Create new insight
 
 1. `./create-new.sh`.
 2. Open and edit `content.md` file in `./data/<today's year>/<today's month>/<today's date>` directory.
