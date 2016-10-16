@@ -30,9 +30,6 @@ Edit `./data/config.json` file.
 ## Author
 
 Artemij Fedosejev
-
-[Website](http://artemij.com)
-
-[LinkedIn](https://www.linkedin.com/in/artemij)
-
-[React.Tips](http://react.tips)
++ [Website](http://artemij.com)
++ [LinkedIn](https://www.linkedin.com/in/artemij)
++ [React.Tips](http://react.tips)
